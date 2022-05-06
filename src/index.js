@@ -1,6 +1,7 @@
 import ReactDOM from "react-dom/client";
-import PrimeraApp from "./primeraApp";
+// import PrimeraApp from "./primeraApp";
+import CounterApp from "./CounterApp";
 import "./index.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<PrimeraApp saludos="hola , soy david"/>);
+root.render(<CounterApp valor={200} />);
